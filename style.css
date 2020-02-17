@@ -101,14 +101,22 @@ section.border {
 
 .split-half:last-child {
     text-align: right;
-    
 }
 
-.logo {
+.split-half span {
+    padding: 15px;
+}
+
+.split-half span:nth-child(1)::before {
+    content: '';
+    background-image: url('./img/ico7.png');
+    background-repeat: no-repeat;
+}
+
+. .logo {
     height: 160px;
     text-align: center;
     border-bottom: 1px solid #ededed;
-
 }
 
 ul.category {
@@ -118,24 +126,19 @@ ul.category {
     border-bottom: 1px solid #ededed;
 }
 
-ul.category li
-{
+ul.category li {
     flex: 1;
     text-align: center;
     height: 60px;
 }
-    
 
 .cat {
-    text-decoration: none; 
+    text-decoration: none;
     color: black;
     font-size: 13px;
     text-transform: uppercase;
-
 }
 
 ul.category li:hover {
     background-color: chocolate;
 }
-
-    
