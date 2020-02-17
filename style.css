@@ -106,10 +106,9 @@ section.border {
 
 .logo {
     height: 160px;
-    background-image: url('./img/logo.png');
-    background-repeat: no-repeat;
-    background-position: center;
+    text-align: center;
     border-bottom: 1px solid #ededed;
+
 }
 
 ul.category {
