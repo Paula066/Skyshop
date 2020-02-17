@@ -114,7 +114,6 @@ section.border {
 ul.category {
     display: flex;
     list-style-type: none;
-    height: 60px;
     align-items: center;
     border-bottom: 1px solid #ededed;
 }
@@ -123,6 +122,7 @@ ul.category li
 {
     flex: 1;
     text-align: center;
+    height: 60px;
 }
     
 
@@ -132,6 +132,10 @@ ul.category li
     font-size: 13px;
     text-transform: uppercase;
 
+}
+
+ul.category li:hover {
+    background-color: chocolate;
 }
 
     
