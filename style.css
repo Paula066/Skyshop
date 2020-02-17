@@ -113,21 +113,25 @@ section.border {
 
 ul.category {
     display: flex;
+    list-style-type: none;
     height: 60px;
     align-items: center;
     border-bottom: 1px solid #ededed;
 }
 
-.cat {
+ul.category li
+{
     flex: 1;
-    text-decoration: none;
     text-align: center;
-    color: #000000;
-    text-transform: uppercase;
+}
+    
+
+.cat {
+    text-decoration: none; 
+    color: black;
     font-size: 13px;
+    text-transform: uppercase;
 
 }
 
-.img {
-    width: 100px;
-}
+    
