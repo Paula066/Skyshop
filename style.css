@@ -102,3 +102,23 @@ section.border {
 .split-half:last-child {
     text-align: right;
 }
+
+.logo {
+    height: 160px;
+    background-image: url('./img/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 1px solid #ededed;
+}
+
+ul.category {
+    list-style-type: none;
+    display: flex;
+    font-size: 13px;
+    text-align: center;
+}
+
+ul.category li {
+    flex: 1;
+    height: 66px;
+}
