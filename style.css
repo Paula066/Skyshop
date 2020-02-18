@@ -107,15 +107,30 @@ section.border {
     padding: 15px;
 }
 
-.ico.img::before {
+.img::before {
     content: '';
-    background-image: url('./img/ico5.png');
     background-repeat: no-repeat;
     display: inline-block;
     height: 20px;
     width: 20px;
     transform: translateY(15px);
     padding: 5px;
+}
+
+.phone::before {
+    background-image: url('./img/ico5.png');
+}
+
+.mail::before {
+    background-image: url('./img/ico6.png');
+}
+
+.client::before {
+    background-image: url('./img/ico7.png');
+}
+
+.trolley::before {
+    background-image: url('./img/ico8.png');
 }
 
 .logo {
