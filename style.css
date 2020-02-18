@@ -192,10 +192,13 @@ ul.category li:hover {
     margin-bottom: 1000px;
 }
 
-.button {
+button {
     text-transform: uppercase;
     border: 1px solid black;
     font-size: 15px;
+    border-radius: 15px;
+    display: inline-block;
+
     
 
 }
