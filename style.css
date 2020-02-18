@@ -166,8 +166,9 @@ ul.category li:hover {
 }
 
 .banners {
+    padding-top: 30px;
     display: flex;
-    margin-bottom: 50px; 
+
 }
 
 .banners-item {
@@ -176,7 +177,7 @@ ul.category li:hover {
     height: 330px;
     background-size: 50% 100%;
     display: flex;
-    height: 150px;
+    height: 330px;
     display: flex;
 }
 
@@ -185,10 +186,19 @@ ul.category li:hover {
     width: 50%;
     display: flex;
     margin-left: auto;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1000px;
 }
 
+.button {
+    text-transform: uppercase;
+    border: 1px solid black;
+    font-size: 15px;
+    
+
+}
 
 
 
