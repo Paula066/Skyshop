@@ -168,7 +168,6 @@ ul.category li:hover {
 .banners {
     padding-top: 30px;
     display: flex;
-
 }
 
 .banners-item {
@@ -207,6 +206,7 @@ ul.category li:hover {
     padding: 30px;
     height: 120px;
     border-bottom: 1px solid #ededed;
+    background-size: 80% 100%;
 }
 
 h2 {
@@ -214,6 +214,13 @@ h2 {
     text-transform: uppercase;
 }
 
+.banner2 {
+    padding-top: 30px;
+    display: flex;
+}
 
-
-
+.banner2-item {
+    flex: 1;
+    height: 427px;
+    display: flex;
+}
