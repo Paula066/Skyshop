@@ -107,7 +107,7 @@ section.border {
     padding: 15px;
 }
 
-.img1::before {
+.ico::before {
     content: '';
     background-repeat: no-repeat;
     display: inline-block;
