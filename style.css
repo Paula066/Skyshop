@@ -193,7 +193,7 @@ ul.category li:hover {
     flex-direction: column;
 }
 
-button {
+.btn {
     text-transform: uppercase;
     border: 1px solid black;
     font-size: 15px;
