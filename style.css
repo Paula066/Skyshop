@@ -169,13 +169,10 @@ ul.category li:hover {
 
 .banners {
     display: flex;
-    margin-bottom: 50px;
-    
-    
+    margin-bottom: 50px; 
 }
 
 .banners-item {
-    
     flex: 1;
     background-repeat: no-repeat;
     height: 150px;
@@ -183,9 +180,7 @@ ul.category li:hover {
     display: flex;
     height: 150px;
     display: flex;
-
 }
-
 
 .banners-item-info {
     height: 100%;
