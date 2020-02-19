@@ -233,6 +233,7 @@ h2 {
 }
 
 .product-item-img:last-child {
+    margin-right: 0;
 }
 
 .bestseller {
