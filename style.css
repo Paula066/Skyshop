@@ -230,8 +230,12 @@ h2 {
 } 
 
 .products .product-item:last-child {
+    margin-right: 0;
 }
 
+.product-item-img {
+    max-width: 100%;
+}
 .bestseller {
     margin-top: 30px;
     padding: 30px;
