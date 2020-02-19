@@ -230,7 +230,6 @@ h2 {
 } 
 
 .products .product-item:last-child {
-    margin-right: 0;
 }
 
 .bestseller {
@@ -239,3 +238,12 @@ h2 {
     height: 120px;
     border-bottom: 1px solid #ededed;
 }
+
+ .product-item .product-name {
+    text-align: center;
+    padding: 15px;
+}
+.product-item .price {
+    text-align: center;
+}
+
