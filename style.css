@@ -230,6 +230,9 @@ h2 {
     height: 427px;
     display: flex;
     background-repeat: no-repeat;
+}
+
+.test {
     margin: 0 20px;
     margin-left: 0;
 }
