@@ -219,22 +219,19 @@ h2 {
     text-align: center;
     text-transform: uppercase;
 }
-.product-item {
-    flex: 1;
-    height: 427px;
-    display: flex;
-    background-repeat: no-repeat;    
-}
 
-.product-item-img {
+.flex.products {
     max-width: 100%;
-    margin-left: 0;
-    padding-right: 20px;
 }
 
+.products .product-item {
+    margin: 0 20px;  
+    margin-left: 0;
+} 
 
-
-
+.products .product-item:last-child {
+    margin-right: 0;
+}
 
 .bestseller {
     margin-top: 30px;
