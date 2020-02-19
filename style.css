@@ -293,6 +293,7 @@
         text-align: center;
         font-size: 14px;
         padding-top: 10px;
+        padding-bottom: 36px;
     }
     
     .newsletter .newsletter-ico {
@@ -315,9 +316,17 @@
         text-align: center;
     }
     
-    #fname {
-        margin-top: 36px;
+    input[type="text"] {
+        width: 44%;
+        height: 58px;
+    }
+    
+    input[type="submit"] {
+        margin-left: -50px;
         height: 56px;
-        font-size: 20px;
-        width: 44%
+        width: 10%;
+        background: rgb(76, 187, 238);
+        color: white;
+        border: 0;
+        -webkit-appearance: none;
     }
