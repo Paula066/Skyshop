@@ -244,11 +244,11 @@ h2 {
 
 }
 
-.product-item .product-name {
+.product-item .product-item-name {
     text-align: center;
     padding: 15px;
 }
-.product-item .price {
+.product-item .product-item-price {
     text-align: center;
 }
 
