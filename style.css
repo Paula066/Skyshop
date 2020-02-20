@@ -190,6 +190,11 @@
         display: flex;
         height: 330px;
     }
+
+    .banners-item-info {
+        font-size: 23px;
+        
+    }
     
     .banners-item:first-child {
         margin-left: 0;
