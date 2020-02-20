@@ -356,17 +356,13 @@
         text-align: center;
         
     }
-
-
-
-
-
-    .lala {
+    
+    .end {
         height: 90px;
         border-bottom: 1px solid grey;
     }
 
-    .test {
+    .text-end {
         text-align: center;
         padding-top: 35px;
         font-size: 10px;
