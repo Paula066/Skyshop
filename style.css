@@ -365,3 +365,12 @@
         font-size: 10px;
         text-transform: uppercase;
     }
+    
+    @media (max-width: 1150px) {
+        .container.white {
+            width: 1150px;
+        }
+        .newsletter {
+            width: 100%;
+        }
+    }
