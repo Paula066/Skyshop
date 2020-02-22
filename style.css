@@ -5,6 +5,10 @@
         font-family: 'Open Sans', sans-serif;
     }
     
+    img {
+        max-width: 100%;
+    }
+    
     body {
         background-image: url('./img/header.jpg');
         background-repeat: repeat-x;
@@ -123,18 +127,22 @@
     
     .ico.phone::before {
         background-image: url('./img/ico5.png');
+        transform: translateY(18px);
     }
     
     .ico.mail::before {
         background-image: url('./img/ico6.png');
+        transform: translateY(18px);
     }
     
     .ico.client::before {
         background-image: url('./img/ico7.png');
+        transform: translateY(16px);
     }
     
     .ico.trolley::before {
         background-image: url('./img/ico8.png');
+        transform: translateY(16px);
     }
     
     .logo {
@@ -171,6 +179,7 @@
         text-transform: uppercase;
         color: #000;
         transition: color .2s;
+        width: 100%;
     }
     
     ul.category li:hover .cat {
@@ -311,7 +320,7 @@
     
     .footer-container {
         flex: 1;
-        height: 313px;
+        height: 318px;
         border-bottom: 1px solid grey;
     }
     
@@ -325,6 +334,7 @@
         color: #000000;
         font-size: 10px;
         text-transform: uppercase;
+        padding-top: 55px;
     }
     
     h6 {
@@ -334,17 +344,15 @@
     }
     
     .footer-container .square {
-        width: 70%;
-        height: 40%;
+        width: 90%;
+        height: 50%;
         position: relative;
         border: 1px solid gray;
-        margin-top: 130px;
     }
     
     .footer-container .square::after {
         content: '';
         display: block;
-        padding-top: 100%;
     }
     
     .footer-container .content {
@@ -354,23 +362,48 @@
         text-align: center;
     }
     
+    .footer-container .footer-container-logo {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    
     .end {
         height: 90px;
         border-bottom: 1px solid grey;
+        flex: 1;
+        margin-bottom: 1000px;
+        padding-top: 35px;
+        text-align: center;
+        justify-content: center;
     }
     
     .text-end {
         text-align: center;
-        padding-top: 35px;
         font-size: 10px;
         text-transform: uppercase;
     }
     
-    @media (max-width: 1150px) {
-        .container.white {
-            width: 1150px;
+    .end-logo {
+        padding-left: 10px;
+        transform: translateY(-2px);
+    }
+    
+    @media (max-width: 1200px) {
+        .container {
+            max-width: 800px;
         }
-        .newsletter {
-            width: 100%;
+        ul.category {
+            max-width: 800px;
         }
     }
+    
+    @media (max-width: 900px) {
+        .container {
+            max-width: 500px;
+        }
+        ul.category {
+            max-width: 500px;
+        }
+    }
+    
+    @media (max-width: px) {}
