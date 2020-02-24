@@ -2,35 +2,32 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: 'Open Sans', sans-serif;
     }
-
+    
     img {
         max-width: 100%;
     }
-
+    
     body {
         background-image: url('./img/header.jpg');
         background-repeat: repeat-x;
         background-size: 1800px;
-
     }
-
+    
     .navigation {
         width: 100%;
         background-color: rgb(63, 173, 236);
-
     }
-
+    
     .container {
         margin: 0 auto;
         width: 100%;
     }
-
+    
     .container.white {
         background-color: #fff;
     }
-
+    
     ul.list {
         list-style-type: none;
         display: flex;
@@ -42,7 +39,7 @@
         text-align: center;
         justify-content: center;
     }
-
+    
     ul.list::before {
         content: '';
         position: absolute;
@@ -53,14 +50,14 @@
         transform: translateX(-50%);
         z-index: -1;
     }
-
+    
     ul.list li {
         flex: 1;
         font-size: 12px;
         position: relative;
         transform: translateY(-5px);
     }
-
+    
     ul.list li::before {
         content: '';
         width: 30px;
@@ -71,19 +68,19 @@
         padding-right: 20px;
         transform: translateY(5px);
     }
-
+    
     ul.list li:nth-child(1)::before {
         background-image: url('./img/ico4.png');
     }
-
+    
     ul.list li:nth-child(2)::before {
         background-image: url('./img/ico2.png');
     }
-
+    
     ul.list li:nth-child(3)::before {
         background-image: url('./img/ico3.png');
     }
-
+    
     ul.list li:not(:last-child)::after {
         content: '';
         width: 1px;
@@ -93,22 +90,20 @@
         position: absolute;
         right: 0;
     }
-
-
-
+    
     .flex {
         display: flex;
     }
-
+    
     section.border {
         border-bottom: 1px solid #ededed;
     }
-
+    
     section.background-blue {
         background-color: rgb(221, 239, 250);
         width: 100%;
     }
-
+    
     .split-half {
         flex: 1;
         /* proporcja */
@@ -116,16 +111,17 @@
         color: #000000;
         font-size: 12px;
         height: 58px;
+        font-family: 'Montserrat';
     }
-
+    
     .split-half:last-child {
         text-align: right;
     }
-
+    
     .split-half span {
         padding: 15px;
     }
-
+    
     .ico::before {
         content: '';
         background-repeat: no-repeat;
@@ -134,42 +130,41 @@
         width: 20px;
         transform: translateY(15px);
         padding: 5px;
-
     }
-
+    
     .ico.phone::before {
         background-image: url('./img/ico5.png');
         transform: translateY(18px);
     }
-
+    
     .ico.mail::before {
         background-image: url('./img/ico6.png');
         transform: translateY(18px);
     }
-
+    
     .ico.client::before {
         background-image: url('./img/ico7.png');
         transform: translateY(16px);
     }
-
+    
     .ico.trolley::before {
         background-image: url('./img/ico8.png');
         transform: translateY(16px);
     }
-
+    
     .logo {
         height: 160px;
         text-align: center;
         border-bottom: 1px solid #ededed;
         padding: 30px;
     }
-
+    
     ul.category {
         display: flex;
         list-style-type: none;
         border-bottom: 1px solid #ededed;
     }
-
+    
     ul.category li {
         flex: 1;
         text-align: center;
@@ -179,12 +174,12 @@
         cursor: pointer;
         border: solid 3px transparent;
     }
-
+    
     ul.category li:hover {
         background-color: rgb(245, 20, 245);
         border: 3px solid aquamarine;
     }
-
+    
     ul.category .cat {
         text-decoration: none;
         font-size: 13px;
@@ -193,17 +188,20 @@
         transition: color .2s;
         width: 100%;
         max-lines: 1;
+        font-family: 'Poppins', bold;
+        color: #484747;
     }
-
+    
     ul.category li:hover .cat {
         color: #fff;
     }
-
+    
     .banners {
         padding-top: 30px;
         display: flex;
+        width: 100%;
     }
-
+    
     .banners-item {
         flex: 1;
         background-repeat: no-repeat;
@@ -213,20 +211,21 @@
         height: 330px;
         background-repeat: no-repeat;
     }
-
-    .banners-item-info {
-        font-size: 23px;
+    
+    .banners-item-info-text {
+        font-family: 'Poppins';
+        font-size: 30px;
     }
-
+    
     .banners-item:first-child {
         margin-left: 0;
         margin-right: 20px;
     }
-
+    
     .banners-item:last-child {
         margin-left: 0;
     }
-
+    
     .banners-item-info {
         height: 100%;
         width: 50%;
@@ -238,75 +237,73 @@
         margin-bottom: 1000px;
         flex-direction: column;
     }
-
+    
     .btn {
         text-transform: uppercase;
         border: 1px solid black;
-        font-size: 15px;
+        font-size: 13px;
         border-radius: 10px;
         padding: 10px;
         margin-top: 30px;
         background-color: transparent;
     }
-
+    
     .heading {
         margin-top: 30px;
         padding: 30px;
         height: 120px;
         text-align: center;
         text-transform: uppercase;
-
     }
-
+    
     .flex.products {
         max-width: 100%;
     }
-
+    
     .products .product-item {
         margin: 0 20px;
         margin-left: 0;
     }
-
+    
     .products .product-item:last-child {
         margin-right: 0;
     }
-
+    
     .product-item-img {
         max-width: 100%;
         padding-top: 20px;
     }
-
+    
     .product-item .product-item-name {
         text-align: center;
         padding: 15px;
     }
-
+    
     .product-item .product-item-price {
         text-align: center;
     }
-
+    
     .producers-item {
         height: 150;
         margin-top: 40px;
         margin-bottom: 40px;
         flex: 1;
     }
-
+    
     .background-blue .container .newsletter {
         height: 358px;
         border-bottom: 1px solid grey;
         text-align: center;
         max-width: 100%;
-
     }
-
+    
     .newsletter .title {
         justify-content: center;
         text-align: center;
         text-transform: uppercase;
         font-size: 26px;
     }
-
+    
     .newsletter .text {
         justify-content: center;
         text-align: center;
@@ -314,18 +311,18 @@
         padding-top: 10px;
         padding-bottom: 36px;
     }
-
+    
     .newsletter .newsletter-ico {
         text-align: center;
         padding-top: 54px;
         padding-bottom: 36px;
     }
-
+    
     input[type="text"] {
         width: 44%;
         height: 58px;
     }
-
+    
     input[type="submit"] {
         margin-left: -50px;
         height: 56px;
@@ -335,56 +332,57 @@
         border: 0;
         -webkit-appearance: none;
     }
-
+    
     .footer-container {
         flex: 1;
         height: 318px;
         border-bottom: 1px solid grey;
     }
-
+    
     ul.footer-list {
         list-style-type: none;
         padding-top: 20px;
+        font-family: 'Montserrat', ;
     }
-
+    
     ul.footer-list .footer-container-list {
         text-decoration: none;
         color: #000000;
-        font-size: 10px;
+        font-size: 13px;
         text-transform: uppercase;
         padding-top: 55px;
     }
-
+    
     h6 {
-        margin-top: 40px;
+        padding-top: 54px;
         font-size: 15px;
         text-transform: uppercase;
     }
-
+    
     .footer-container .square {
         width: 90%;
         height: 50%;
         position: relative;
         border: 1px solid rgb(199, 193, 193);
     }
-
+    
     .footer-container .square::after {
         content: '';
         display: block;
     }
-
+    
     .footer-container .content {
         position: absolute;
         width: 100%;
         height: 100%;
         text-align: center;
     }
-
+    
     .footer-container .footer-container-logo {
-        padding-top: 40px;
+        padding-top: 54px;
         padding-bottom: 20px;
     }
-
+    
     .end {
         height: 90px;
         border-bottom: 1px solid grey;
@@ -393,22 +391,22 @@
         text-align: center;
         justify-content: center;
     }
-
+    
     .text-end {
         text-align: center;
         font-size: 10px;
         text-transform: uppercase;
     }
-
+    
     .end-logo {
         padding-left: 10px;
         transform: translateY(-2px);
     }
-
+    
     .text h3 {
         font-size: 16px;
     }
-
+    
     .text {
         padding: 20px;
         margin-left: 0;
@@ -416,79 +414,83 @@
         font-size: 10px;
         text-transform: uppercase;
     }
-
+    
     @media only screen and (max-width: 600px) {
         .container {
             max-width: 600px;
         }
     }
-
+    
     @media only screen and (min-width: 600px) {
         .container {
             max-width: 500px;
         }
-
         .background-blue {
             min-width: 700px;
         }
     }
-
+    
     @media only screen and (max-width: 800px) {
         .container {
             max-width: 600px;
         }
+        .product-item {
+            flex-wrap: wrap-reverse;
+        }
     }
-
+    
     @media only screen and (max-width: 720px) {
         .container {
             min-width: 720px;
         }
-
         .background-blue {
             min-width: 720px;
         }
     }
-
+    
     @media only screen and (max-width: 700px) {
-
         .heading {
             min-width: 700px;
         }
-
         .banners {
-            min-width: 700px;
+            display: inline-block;
+        }
+        .banners-item {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .products {
+            display: block;
+        }
+        .banners-item-info-text {
+            justify-content: center;
         }
     }
-
+    
     @media only screen and (max-width: 720px) {
         .navigation {
             min-width: 720px;
         }
     }
-
+    
     @media only screen and (min-width: 768px) {
         .container {
             max-width: 650px;
         }
     }
-
+    
     @media only screen and (min-width: 992px) {
         .container {
             max-width: 800px;
         }
     }
-
+    
     @media only screen and (min-width: 1200px) {
         .container {
             max-width: 1100px;
         }
-
     }
-
     /* _______________ */
-
-
-
     /* @media (max-width: 1400px) {
         .container {
             max-width: 900px;
