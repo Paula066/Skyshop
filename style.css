@@ -462,8 +462,9 @@
         .products {
             display: block;
         }
-        .banners-item-info-text {
-            justify-content: center;
+        img.product-item-img {
+            display: block;
+            margin: 0 auto;
         }
     }
     
