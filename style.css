@@ -517,9 +517,9 @@ h6 {
     }
 }
 
-@media only screen and (min-width: 718px) and (max-width: 780px) {
+@media only screen and (min-width: 718px) and (max-width: 800px) {
     ul.category .cat {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 
@@ -559,7 +559,7 @@ h6 {
         font-size: 20px;
     }
     ul.category .cat {
-        font-size: 12px;
+        font-size: 9px;
     }
 }
 
