@@ -18,6 +18,9 @@ img {
     height: 120px;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 15px;
 }
 
 body {
@@ -68,6 +71,7 @@ ul.list li {
     font-size: 12px;
     position: relative;
     transform: translateY(-5px);
+    font-family: 'Poppins';
 }
 
 ul.list li::before {
@@ -119,6 +123,7 @@ section.background-blue {
     font-size: 12px;
     height: 58px;
     font-family: 'Montserrat';
+    font-weight: 400;
 }
 
 .split-half:last-child {
@@ -195,7 +200,8 @@ ul.category .cat {
     transition: color .2s;
     width: 100%;
     max-lines: 1;
-    font-family: 'Poppins', bold;
+    font-family: 'Poppins';
+    font-weight: bold;
     color: #484747;
 }
 
@@ -222,6 +228,7 @@ ul.category li:hover .cat {
 
 .banners-item-info-text {
     font-family: 'Poppins';
+    font-weight: 400;
 }
 
 .banners-item:first-child {
@@ -244,6 +251,7 @@ ul.category li:hover .cat {
     margin-bottom: 1000px;
     flex-direction: column;
     font-size: 30px;
+    font-family: 'Poppins';
 }
 
 .btn {
@@ -251,7 +259,7 @@ ul.category li:hover .cat {
     border: 1px solid black;
     font-size: 13px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     margin-top: 30px;
     background-color: transparent;
 }
@@ -259,6 +267,7 @@ ul.category li:hover .cat {
 .flex.products {
     flex-wrap: wrap;
     display: flex;
+    font-family: 'Poppins';
 }
 
 .products .product-item {
@@ -277,12 +286,29 @@ ul.category li:hover .cat {
 }
 
 .product-item .product-item-name {
+    font-size: 15px;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .product-item .product-item-price {
     text-align: center;
+}
+
+.product-item .product-item-price .price-solid {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+.product-item .product-item-price .price-normal {
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
 }
 
 .producers-item {
@@ -473,7 +499,6 @@ h6 {
 @media only screen and (min-width: 718px) and (max-width: 780px) {
     ul.category .cat {
         font-size: 10px;
-        font-family: 'Poppins', bold;
     }
 }
 
@@ -514,14 +539,12 @@ h6 {
     }
     ul.category .cat {
         font-size: 12px;
-        font-family: 'Poppins', bold;
     }
 }
 
 @media only screen and (min-width: 1000px) {
     .ul.category .cat {
         font-size: 13px;
-        font-family: 'Poppins', bold;
     }
 }
 
