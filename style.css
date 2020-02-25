@@ -335,7 +335,7 @@ ul.category li:hover .cat {
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 500;
-    padding-top: 22px;
+    padding-top: 19px;
 }
 
 .newsletter .text {
@@ -347,10 +347,10 @@ ul.category li:hover .cat {
     font-weight: 400;
 }
 
-.newsletter .newsletter-ico {
+.newsletter .newsletter-ico-img {
     text-align: center;
     padding-top: 54px;
-    padding-bottom: 36px;
+    padding-bottom: 16px;
 }
 
 input[type="text"] {
@@ -386,7 +386,6 @@ ul.footer-list .footer-container-list {
     color: #000000;
     font-size: 12px;
     text-transform: uppercase;
-    padding-top: 55px;
     font-weight: 400;
 }
 
