@@ -561,6 +561,18 @@ h6 {
     ul.category .cat {
         font-size: 9px;
     }
+    .square {
+        width: 100%;
+    }
+    .square .content p.number {
+        font-size: 10px;
+        text-align: center;
+    }
+    .square .content p {
+        font-size: 10px;
+        text-align: left;
+        padding: 0;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
