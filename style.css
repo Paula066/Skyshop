@@ -439,6 +439,13 @@
         }
     }
 
+    @media only screen and (min-width: 700px) and (max-width: 900px) {
+        .banners-item-info {
+            font-size: 20px;
+        }
+    }
+
+
     @media only screen and (min-width: 780px) and (max-width: 1000px) {
         .banners-item-info {
             font-size: 20px;
@@ -447,11 +454,6 @@
         ul.category .cat {
             font-size: 12px;
             font-family: 'Poppins', bold;
-        }
-
-        .products {
-            flex: 2;
-
         }
     }
 
@@ -517,9 +519,6 @@
         .container {
             max-width: 650px;
         }
-
-
-
     }
 
     @media only screen and (min-width: 992px) {
@@ -530,11 +529,7 @@
         .banners-item-info {
             font-size: 25px;
         }
-
-
     }
-
-
 
     @media only screen and (min-width: 1200px) {
         .container {
