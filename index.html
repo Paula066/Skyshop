@@ -57,10 +57,28 @@
                 <a class="cat" href="#"><img src="img/ico9.png"></a>
             </li>
         </ul>
+        <div class="container slider">
+            <div class="activeslides fade">
+                <img src="./img/skyimg.png" style="width: 100%;">
+            </div>
+            <div class="slides images">
+                <img src="./img/skyimg.png" style="width: 100%;">
+            </div>
+            <div class="slides images">
+                <img src="./img/skyimg.png" style="width: 100%;">
+            </div>
 
-        <div class="main-img">
-            <img src="./img/skyimg.png">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
         <div class="banners">
             <div class="banners-item">
                 <div class="banners-item-img" style="background-image: url('./img/img1.png');"></div>
@@ -340,6 +358,8 @@
             </div>
         </div>
     </section>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
