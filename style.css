@@ -533,6 +533,14 @@ h6 {
     .ico {
         font-size: 10px;
     }
+    .square .content p.number {
+        font-size: 9px;
+    }
+    .square .content p {
+        font-size: 9px;
+        text-align: left;
+        padding: 0;
+    }
 }
 
 @media only screen and (min-width: 700px) and (max-width: 900px) {
