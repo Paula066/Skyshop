@@ -522,6 +522,16 @@ h6 {
     .navigation {
         min-width: 720px;
     }
+
+    .footer-container .footer-list {
+        display: none;
+    }
+
+    .footer-container a.footer-container a.icon {
+        background-color: black;
+    }
+
+
 }
 
 @media only screen and (min-width: 768px) {
