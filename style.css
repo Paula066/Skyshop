@@ -32,6 +32,7 @@ body {
 .navigation {
     width: 100%;
     background-color: rgb(63, 173, 236);
+
 }
 
 .container {
@@ -72,6 +73,7 @@ ul.list li {
     position: relative;
     transform: translateY(-5px);
     font-family: 'Poppins';
+
 }
 
 ul.list li::before {
@@ -123,11 +125,12 @@ section.background-blue {
     font-size: 12px;
     height: 58px;
     font-family: 'Montserrat';
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .split-half:last-child {
     text-align: right;
+    text-transform: uppercase;
 }
 
 .split-half span {
@@ -477,6 +480,7 @@ h6 {
     .container {
         max-width: 500px;
     }
+
     .background-blue {
         min-width: 700px;
     }
@@ -486,16 +490,20 @@ h6 {
     .heading {
         min-width: 700px;
     }
+
     .banners {
         display: inline-block;
     }
+
     .banners-item {
         margin-bottom: 20px;
         width: 100%;
     }
+
     .products {
         flex-direction: column;
     }
+
     img.product-item-img {
         display: block;
         margin: 0 auto;
@@ -506,9 +514,11 @@ h6 {
     .container {
         min-width: 720px;
     }
+
     .background-blue {
         min-width: 720px;
     }
+
     .navigation {
         min-width: 720px;
     }
@@ -530,12 +540,15 @@ h6 {
     .container {
         max-width: 600px;
     }
+
     .ico {
         font-size: 10px;
     }
+
     .square .content p.number {
         font-size: 9px;
     }
+
     .square .content p {
         font-size: 9px;
         text-align: left;
@@ -547,10 +560,12 @@ h6 {
     .banners-item-info {
         font-size: 20px;
     }
+
     .products {
         flex-direction: column;
         flex: 50%;
     }
+
     .product-item {
         display: block;
     }
@@ -560,6 +575,7 @@ h6 {
     .container {
         max-width: 800px;
     }
+
     .banners-item-info {
         font-size: 25px;
     }
@@ -569,20 +585,28 @@ h6 {
     .banners-item-info {
         font-size: 20px;
     }
+
     ul.category .cat {
         font-size: 9px;
     }
+
     .square {
         width: 100%;
     }
+
     .square .content p.number {
         font-size: 10px;
         text-align: center;
     }
+
     .square .content p {
         font-size: 10px;
         text-align: left;
         padding: 0;
+    }
+
+    .split-half span.ico {
+        font-size: 10px;
     }
 }
 
@@ -596,6 +620,7 @@ h6 {
     .container {
         max-width: 1100px;
     }
+
     .banners-item-info {
         font-size: 30px;
     }
