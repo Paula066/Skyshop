@@ -548,9 +548,9 @@ h6 {
     font-weight: 400px;
 }
 
-.end-logo {
+.end-logo img {
     padding-left: 10px;
-    transform: translateY(-2px);
+    transform: translateY(-5px);
 }
 
 .hamburger {
