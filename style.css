@@ -278,7 +278,7 @@ ul.category li:hover .cat {
     background-color: transparent;
 }
 
-.flex.products {
+.products {
     flex-wrap: wrap;
     display: flex;
     font-family: 'Poppins';
@@ -287,6 +287,10 @@ ul.category li:hover .cat {
 .products .product-item {
     margin: 0 20px;
     margin-left: 0;
+    flex: 1;
+}
+
+.products .product-item-info {
     flex: 1;
 }
 
@@ -559,17 +563,6 @@ h6 {
         text-align: left;
         padding: 0;
     }
-    .dot {
-        cursor: pointer;
-        height: 6px;
-        width: 6px;
-        margin: 0 1px;
-        background-color: white;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-        transform: translateY(-33px);
-    }
     .navigation {
         display: none;
     }
@@ -616,12 +609,12 @@ h6 {
     .split-half a {
         display: none;
     }
-    .flex.products {
+    .products {
         flex-wrap: wrap;
         display: flex;
         font-family: 'Poppins';
     }
-    .flex.products .product-item {
+    .products .product-item {
         margin: 0 auto;
         margin-left: 0;
         flex: 49%;
@@ -664,26 +657,8 @@ h6 {
     .split-half span.ico {
         font-size: 10px;
     }
-    .dot {
-        cursor: pointer;
-        height: 8px;
-        width: 8px;
-        margin: 0 1px;
-        background-color: white;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-        transform: translateY(-33px);
-    }
-    .flex.products {
-        flex-wrap: wrap;
-        display: flex;
-        font-family: 'Poppins';
-    }
-    .flex.products .product-item {
-        margin: 0 20px;
-        margin-left: 0;
-        flex: 40%;
+    .product-item {
+        flex: 2;
     }
 }
 
@@ -700,17 +675,6 @@ h6 {
     .ul.category .cat {
         font-size: 13px;
     }
-    .dot {
-        cursor: pointer;
-        height: 11px;
-        width: 11px;
-        margin: 0 1px;
-        background-color: white;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-        transform: translateY(-35px);
-    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -719,16 +683,5 @@ h6 {
     }
     .banners-item-info {
         font-size: 30px;
-    }
-    .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: white;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-        transform: translateY(-45px);
     }
 }
