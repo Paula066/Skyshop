@@ -27,13 +27,11 @@ body {
     background-image: url('./img/header.jpg');
     background-repeat: repeat-x;
     background-size: 1800px;
-
 }
 
 .navigation {
     width: 100%;
     background-color: rgb(63, 173, 236);
-
 }
 
 .container {
@@ -74,7 +72,6 @@ ul.list li {
     position: relative;
     transform: translateY(-5px);
     font-family: 'Poppins';
-
 }
 
 ul.list li::before {
@@ -223,85 +220,6 @@ ul.category li:hover .cat {
     color: #fff;
 }
 
-.container.slider {
-    position: relative;
-
-}
-
-.slides {
-    display: none;
-}
-
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: rgb(7, 7, 7);
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    transform: translateY(-45px);
-}
-
-.dot:nth-child(2) {
-    background-color: rgb(93, 199, 231);
-}
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-/* @-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
-} */
-
 .banners {
     padding-top: 30px;
     display: flex;
@@ -341,7 +259,6 @@ ul.category li:hover .cat {
     font-weight: 400;
 }
 
-
 .banners-item:first-child {
     margin-left: 0;
     margin-right: 20px;
@@ -365,14 +282,12 @@ ul.category li:hover .cat {
     flex-wrap: wrap;
     display: flex;
     font-family: 'Poppins';
-
 }
 
-.flex.products .product-item {
+.products .product-item {
     margin: 0 20px;
     margin-left: 0;
     flex: 1;
-
 }
 
 .products .product-item:last-child {
@@ -570,9 +485,6 @@ h6 {
     display: none;
 }
 
-
-
-
 @media only screen and (max-width: 600px) {
     .container {
         max-width: 600px;
@@ -583,7 +495,6 @@ h6 {
     .container {
         max-width: 500px;
     }
-
     .background-blue {
         min-width: 700px;
     }
@@ -593,20 +504,16 @@ h6 {
     .heading {
         min-width: 700px;
     }
-
     .banners {
         display: inline-block;
     }
-
     .banners-item {
         margin-bottom: 20px;
         width: 100%;
     }
-
     .products {
         flex-direction: column;
     }
-
     img.product-item-img {
         display: block;
         margin: 0 auto;
@@ -617,11 +524,9 @@ h6 {
     .container {
         min-width: 720px;
     }
-
     .background-blue {
         min-width: 720px;
     }
-
     .navigation {
         min-width: 720px;
     }
@@ -643,21 +548,17 @@ h6 {
     .container {
         max-width: 600px;
     }
-
     .ico {
         font-size: 10px;
     }
-
     .square .content p.number {
         font-size: 9px;
     }
-
     .square .content p {
         font-size: 9px;
         text-align: left;
         padding: 0;
     }
-
     .dot {
         cursor: pointer;
         height: 6px;
@@ -669,39 +570,31 @@ h6 {
         transition: background-color 0.6s ease;
         transform: translateY(-33px);
     }
-
     .navigation {
         display: none;
     }
-
     ul.category {
         display: block;
     }
-
     ul.category .cat {
         font-size: 15px;
     }
-
     ul.category li {
         border: 1px solid #ededed;
     }
-
     .menu-icon {
         padding: 28px 20px;
         position: relative;
         cursor: pointer;
         height: 30px;
     }
-
     .menu-icon .nav-icon {
         background-color: #333;
         display: block;
         position: relative;
         height: 2px;
         width: 18px;
-
     }
-
     .menu-icon .nav-icon::before {
         background-color: #333;
         content: '';
@@ -711,7 +604,6 @@ h6 {
         width: 100%;
         top: 5px;
     }
-
     .menu-icon .nav-icon::after {
         background-color: #333;
         content: '';
@@ -721,26 +613,21 @@ h6 {
         width: 100%;
         top: -5px;
     }
-
     .split-half a {
         display: none;
     }
-
     .flex.products {
         flex-wrap: wrap;
         display: flex;
         font-family: 'Poppins';
     }
-
     .flex.products .product-item {
         margin: 0 auto;
         margin-left: 0;
         flex: 49%;
         align-items: center;
         justify-content: center;
-
     }
-
 }
 
 @media only screen and (min-width: 700px) and (max-width: 900px) {
@@ -753,7 +640,6 @@ h6 {
     .container {
         max-width: 800px;
     }
-
     .banners-item-info {
         font-size: 25px;
     }
@@ -763,26 +649,21 @@ h6 {
     .banners-item-info {
         font-size: 20px;
     }
-
     .square {
         width: 100%;
     }
-
     .square .content p.number {
         font-size: 10px;
         text-align: center;
     }
-
     .square .content p {
         font-size: 10px;
         text-align: left;
         padding: 0;
     }
-
     .split-half span.ico {
         font-size: 10px;
     }
-
     .dot {
         cursor: pointer;
         height: 8px;
@@ -794,27 +675,22 @@ h6 {
         transition: background-color 0.6s ease;
         transform: translateY(-33px);
     }
-
     .flex.products {
         flex-wrap: wrap;
         display: flex;
         font-family: 'Poppins';
-
     }
-
     .flex.products .product-item {
         margin: 0 20px;
         margin-left: 0;
         flex: 40%;
     }
-
 }
 
 @media only screen and (min-width: 800px) and (max-width:1000px) {
     ul.category .cat {
         font-size: 11px;
     }
-
     .split-half a {
         font-size: 10px;
     }
@@ -824,7 +700,6 @@ h6 {
     .ul.category .cat {
         font-size: 13px;
     }
-
     .dot {
         cursor: pointer;
         height: 11px;
@@ -835,7 +710,6 @@ h6 {
         display: inline-block;
         transition: background-color 0.6s ease;
         transform: translateY(-35px);
-
     }
 }
 
@@ -843,12 +717,9 @@ h6 {
     .container {
         max-width: 1100px;
     }
-
     .banners-item-info {
         font-size: 30px;
     }
-
-
     .dot {
         cursor: pointer;
         height: 15px;
@@ -860,6 +731,4 @@ h6 {
         transition: background-color 0.6s ease;
         transform: translateY(-45px);
     }
-
-
 }
