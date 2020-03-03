@@ -603,6 +603,9 @@ ul.menu-mobile.open {
         padding-bottom: 10px;
         justify-content: center;
     }
+    .banners-item-info-text {
+        font-size: 25px;
+    }
     ul.list {
         display: none;
     }
@@ -613,18 +616,23 @@ ul.menu-mobile.open {
         flex-basis: 55%;
         text-align: center;
     }
+    .text {
+        text-align: center;
+    }
     .text p.number {
-        font-size: 8px;
+        font-size: 15px;
         padding-top: 15px;
     }
     .text p.textmail {
-        font-size: 7px;
+        font-size: 15px;
     }
     .text p {
-        font-size: 10px;
+        font-size: 15px;
     }
     h6 {
-        font-size: 10px;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 20px;
     }
     ul.footer-list .footer-container-list {
         font-size: 9px;
@@ -646,5 +654,16 @@ ul.menu-mobile.open {
     }
     .footer-container {
         flex-direction: column;
+        text-align: center;
+    }
+    ul.footer-list li {
+        text-align: center;
+        padding: 5px;
+    }
+    .footer-container .square {
+        width: 100%;
+    }
+    .square {
+        margin-bottom: 15px;
     }
 }
