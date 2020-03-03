@@ -567,4 +567,14 @@ h6 {
         flex-basis: 55%;
         text-align: center;
     }
+    .text p.number {
+        font-size: 8px;
+        padding-top: 15px;
+    }
+    .text p.textmail {
+        font-size: 9px;
+    }
+    .text p {
+        font-size: 10px;
+    }
 }
