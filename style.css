@@ -727,4 +727,10 @@
         .hamburger2 {
             display: none;
         }
+        input[type="submit"] {
+            width: 20%;
+        }
+        input[type="text"] {
+            width: 60%;
+        }
     }
