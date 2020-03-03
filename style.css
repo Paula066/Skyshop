@@ -493,11 +493,32 @@ h6 {
     .container {
         width: 820px;
     }
+    .footer-container {
+        padding: 10px;
+    }
+    .text {
+        padding: 10px;
+    }
 }
 
 @media (max-width: 960px) {
     .container {
         width: 640px;
+    }
+    .split-half {
+        font-size: 10px;
+    }
+    ul.category .cat {
+        font-size: 11px;
+    }
+    .banners-item-info {
+        font-size: 20px;
+    }
+    .text {
+        padding: 5px
+    }
+    .footer-container {
+        padding: 3px;
     }
 }
 
@@ -505,10 +526,45 @@ h6 {
     .container {
         width: 480px;
     }
+    .split-half a {
+        font-size: 9px;
+        padding: 5px;
+    }
+    ul.category li {
+        padding: 5px;
+        padding-top: 15px;
+    }
+    .products .product-item {
+        flex-basis: 45%;
+    }
+    .banners {
+        display: block;
+    }
+    .banners-item:first-child {
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    .banners-item-info-text {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 520px) {
     .container {
         max-width: 100%;
+    }
+    .banners {
+        display: block;
+    }
+    .banners-item {
+        padding-bottom: 10px;
+        justify-content: center;
+    }
+    ul.list li {
+        font-size: 9px;
+    }
+    .products .product-item {
+        flex-basis: 55%;
+        text-align: center;
     }
 }
