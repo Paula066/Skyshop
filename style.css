@@ -578,6 +578,9 @@
         .banners-item-info {
             font-size: 25px;
         }
+        .product-item .product-item-price .price-normal {
+            padding-left: 0;
+        }
     }
     
     @media (max-width: 960px) {
@@ -599,6 +602,9 @@
         .footer-container {
             padding: 3px;
         }
+        .products .product-item {
+            flex-basis: 45%;
+        }
     }
     
     @media (max-width: 720px) {
@@ -613,9 +619,9 @@
             padding: 5px;
             padding-top: 15px;
         }
-        .products .product-item {
+        /* .products .product-item {
             flex-basis: 45%;
-        }
+        } */
         .banners {
             display: block;
         }
