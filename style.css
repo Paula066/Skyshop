@@ -373,18 +373,16 @@
     }
     
     input[type="text"] {
-        width: 44%;
+        width: 40%;
         height: 58px;
     }
     
     input[type="submit"] {
-        margin-left: -50px;
         height: 56px;
         width: 10%;
         background: rgb(76, 187, 238);
         color: white;
-        border: 0;
-        -webkit-appearance: none;
+        border: 1px solid rgb(76, 187, 238);
     }
     
     .footer-container {
