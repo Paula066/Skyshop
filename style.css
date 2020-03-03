@@ -388,7 +388,6 @@
     
     .footer-container {
         flex: 1;
-        height: 320px;
         border-bottom: 1px solid grey;
         font-family: 'Montserrat';
         color: #484747;
