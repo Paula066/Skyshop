@@ -82,7 +82,7 @@
         background-repeat: no-repeat;
         background-position: center;
         padding-right: 20px;
-        transform: translateY(5px);
+        transform: translateY(7px);
     }
     
     ul.list li:nth-child(1)::before {
@@ -109,6 +109,7 @@
     
     section.border {
         border-bottom: 1px solid #ededed;
+        padding-bottom: 16px;
     }
     
     section.background-blue {
@@ -121,7 +122,6 @@
         justify-content: center;
         color: #484747;
         font-size: 12px;
-        height: 58px;
         font-family: 'Montserrat';
         font-weight: 500;
     }
@@ -132,17 +132,13 @@
     }
     
     .split-half a {
-        padding: 15px;
+        padding: 30px;
         text-decoration: none;
         color: #484747;
     }
     
     #menu-btn {
         display: none;
-    }
-    
-    .split-half a {
-        padding: 15px;
     }
     
     .ico::before {
@@ -191,8 +187,7 @@
     ul.category li {
         flex: 1;
         text-align: center;
-        height: 60px;
-        padding: 17px;
+        padding: 20px;
         cursor: pointer;
         transition: 2s ease;
     }
@@ -592,6 +587,9 @@
         .split-half {
             font-size: 10px;
         }
+        .split-half a {
+            padding: 10px;
+        }
         ul.category .cat {
             font-size: 11px;
         }
@@ -607,6 +605,9 @@
         .products .product-item {
             flex-basis: 45%;
         }
+        .producers-item img.producers-item-logo {
+            padding: 0 5px;
+        }
     }
     
     @media (max-width: 720px) {
@@ -618,8 +619,7 @@
             padding: 5px;
         }
         ul.category li {
-            padding: 5px;
-            padding-top: 15px;
+            padding: 8px;
         }
         /* .products .product-item {
             flex-basis: 45%;
@@ -648,6 +648,12 @@
         }
         .text .textmail {
             font-size: 10px;
+        }
+        ul.list li {
+            font-size: 10px;
+        }
+        .producers-item img.producers-item-logo {
+            padding: 0 3px;
         }
     }
     
