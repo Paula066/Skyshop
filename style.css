@@ -540,8 +540,8 @@
     }
     
     ul.menu-mobile li {
-        text-align: center;
-        padding: 5px;
+        text-align: left;
+        padding: 10px;
         text-transform: uppercase;
         font-family: 'Poppins';
         font-weight: 500;
@@ -703,6 +703,8 @@
         }
         .hamburger {
             display: block;
+            padding: 10px;
+            text-align: -webkit-right;
         }
         .menu-mobile {
             display: block;
@@ -739,5 +741,8 @@
         .footer {
             border-bottom: none;
             padding-bottom: 0;
+        }
+        .producers-item img.producers-item-logo {
+            padding: 0 5px;
         }
     }
