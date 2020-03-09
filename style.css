@@ -370,15 +370,24 @@
         width: 40%;
         height: 58px;
         outline: none;
+        font-size: 20px;
+        border: 1px solid white;
     }
     
     input[type="submit"] {
-        height: 56px;
+        height: 58px;
         width: 10%;
         background: #28a9e0;
         color: white;
         border: 1px solid #28a9e0;
         outline: none;
+        vertical-align: top;
+        transform: translateX(-1px);
+    }
+    
+    .message {
+        font-size: 25px;
+        margin: 20px;
     }
     
     .footer-container {
@@ -620,6 +629,9 @@
         .producers-item img.producers-item-logo {
             padding: 0 5px;
         }
+        input[type="submit"] {
+            width: 15%;
+        }
     }
     
     @media (max-width: 720px) {
@@ -666,6 +678,9 @@
         }
         .producers-item img.producers-item-logo {
             padding: 0 3px;
+        }
+        input[type="submit"] {
+            width: 15%;
         }
     }
     
